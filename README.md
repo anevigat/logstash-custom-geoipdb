@@ -52,6 +52,7 @@ perl yourscript.pl
 ## 4. Configure Logstash
 Place the mmdb file on the logstash server and configure the pipeline according the official documentation.
 Check logstash_pipeline_example.conf for inspiration.
+When you run the php script, It will prompt a message with the fields stored in the db and a set of mutate filter lines in case you have used a different set of names for your fields.
 
 ## 5. Contribuiting
 All contributions are welcome: ideas, patches, documentation, bug reports, complaints...
