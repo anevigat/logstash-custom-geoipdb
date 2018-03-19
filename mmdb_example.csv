@@ -1,0 +1,10 @@
+10.28.114.0/24,91,81,1111,timezone1,continent_code1,city_name1,country_code1,country_name1,region_code1,region_name1,postal_code1
+10.28.115.0/24,92,82,2222,timezone2,continent_code2,city_name2,country_code2,country_name2,region_code2,region_name2,postal_code2
+10.28.116.0/24,93,83,3333,timezone3,continent_code3,city_name3,country_code3,country_name3,region_code3,region_name3,postal_code3
+10.28.117.0/24,94,84,4444,timezone4,continent_code4,city_name4,country_code4,country_name4,region_code4,region_name4,postal_code4
+10.28.118.0/24,95,85,5555,timezone5,continent_code5,city_name5,,country_name5,region_code5,region_name5,postal_code5
+10.28.119.0/24,96,86,6666,timezone6,,city_name6,country_code6,country_name6,region_code6,region_name6,postal_code6
+10.28.121.0/24,97,87,7777,timezone7,continent_code7,city_name7,country_code7,country_name7,,region_name7,postal_code7
+10.28.122.0/24,98,88,8888,timezone8,continent_code8,city_name8,country_code8,country_name8,region_code8,region_name8,postal_code8
+10.28.124.0/24,99,89,9999,timezone9,,city_name9,country_code9,country_name9,region_code9,region_name9,postal_code9
+10.28.125.0/24,100,90,10000,timezone10,continent_code10,city_name10,country_code10,country_name10,region_code10,region_name10,postal_code10
