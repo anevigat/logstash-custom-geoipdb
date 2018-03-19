@@ -1,5 +1,5 @@
 # logstash-custom-geoipdb
-Personal notes and scripts to create a Custom GeoIP-db for GEOIP Filter plugin for LOGSTASH.
+Personal notes and scripts to create a Custom GeoIP-db.mmdb for GEOIP Filter plugin for LOGSTASH.
 
 ## Introduction
 The GeoIP filter for Logstash adds information about the geographical location of IP addresses, based on data from the Maxmind GeoLite2 databases. This plugin is bundled with GeoLite2 City database out of the box.
@@ -24,7 +24,7 @@ For the custom db you can only use these fields and you have to insert them on t
 ## 1. Prepare CSV Input File
 CSV file must come without header row. 
 The first three columns must be: IP Range (CIDR Notation), Latitude and Longitude.
-The other columns are optional but order must match the definition in the PHP Script. It's possible to leave some cells empty in this columns. Check mmdb_example.csv.
+The other columns are optional but order must match the definition in the PHP Script. It's possible to leave some cells empty in this columns. Check mmdb_example.csv for inspiration
 
 ## 2. Generate Perl Script from PHP Script using CSV Input File
 Set the names of the input and output files in 'Variables'.
@@ -51,7 +51,7 @@ perl yourscript.pl
 
 ## 4. Configure Logstash
 Place the mmdb file on the logstash server and configure the pipeline according the official documentation.
-Check logstash_pipeline_example.conf.
+Check logstash_pipeline_example.conf for inspiration.
 
 ## 5. Contribuiting
 All contributions are welcome: ideas, patches, documentation, bug reports, complaints...
